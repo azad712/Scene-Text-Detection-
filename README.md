@@ -22,7 +22,7 @@ lightening conditions.
  for manually annoatating datasets. https://roboflow.com/
 2. New or novel Deep learning architecure can be developed especially for scene text recognition, along with traditional image processing techniques. CRAFT, CRNN and vision transformers
    are not fully accurate
-3. For character recognition, new or novel deep learning models should be tried and experimented
+3. For character recognition, new or novel deep learning models should be tried and experimented. Clustering techniques, semi supervised learning techniques can be given thought for further experimentation. 
 
 # Video processing is present in file called Scene Text Generation Processing.ipynb
 
