@@ -1,3 +1,16 @@
+# Scene Text Generation
+
+This project finds the text present in a video https://www.youtube.com/watch?v=_pHZqBQYRQ4&t=277s 
+The video is divided processed into frames, and then each frame passes through a deep learning module
+which is CRAFT (Character-Region Awareness For Text detection based) and I have used their pretrained model. After then easyOCR is used to extract text  and stored in excel sheet.
+
+# Video processing is present in file called Scene Text Generation Processing.ipynb
+
+# Following is details from CRAFT 
+
+
+# The project uses CRAFT based text detector
+## https://github.com/clovaai/CRAFT-pytorch
 ## CRAFT: Character-Region Awareness For Text detection
 Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)
 
