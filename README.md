@@ -11,6 +11,19 @@ Since character recognition and matching task is difficult, so I have relaxed co
 have matched first and last character and one character matching in between and have excluded common words like 
 "in", "the", "floor", etc 
 
+#  Challenges encountered :
+
+Scene text detection is a difficult problem, it's challenging for text to be identified under blurry, occluded and 
+lightening conditions. 
+
+# Future scope 
+
+1. There is shortage of scene text datasets, that needs to be created. Roboflow is one of the tools
+ for manually annoatating datasets. https://roboflow.com/
+2. New or novel Deep learning architecure can be developed especially for scene text recognition, along with traditional image processing techniques. CRAFT, CRNN and vision transformers
+   are not fully accurate
+3. For character recognition, new or novel deep learning models should be tried and experimented
+
 # Video processing is present in file called Scene Text Generation Processing.ipynb
 
 # Following is details from CRAFT 
