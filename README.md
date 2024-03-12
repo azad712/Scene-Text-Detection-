@@ -4,7 +4,7 @@ This project finds the text present in a video https://www.youtube.com/watch?v=_
 The video is divided processed into frames, and then each frame passes through a deep learning module
 which is CRAFT (Character-Region Awareness For Text detection based) and I have used their pretrained model. After then easyOCR is used to extract text  and stored in excel sheet. Frame rate is 1 fps and I have included results only upto 504 frames.
 
-One result is shown in frame no. 199, input frame image is frame_199.jpeg,  image with bounding boxes is res_frame_199.jpg, bounding box coordinates is in image res_frame_199.txt, with it's correosponding output images of text recognition and cropped image of
+In thi github repository, One result is shown in frame no. 199, input frame image is frame_199.jpeg,  image with bounding boxes is res_frame_199.jpg, bounding box coordinates is in image res_frame_199.txt, with it's correosponding output images of text recognition and cropped image of
 that text recognition in res_bounding boxes 0.jpeg and res_bounding_boxes 1.jpeg. In the excel sheet file updated_extracted_text.xsls, entry number 666, has extracted shop name CHAIPOINT with corresponding entry and exit time stamps.
 
 Since character recognition and matching task is difficult, so I have relaxed condition of character matching to
